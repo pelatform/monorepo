@@ -1,0 +1,17 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "tailwindCSS.experimental.classRegex": [
+    ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
+    ["cn\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"],
+    ["clsx\\(([^)]*)\\)", "[\"'`]([^\"'`]*)[\"'`]"]
+  ]
+  // "tailwindCSS.experimental.configFile": {
+  //   "tailwind.config.js": "./**"
+  // }
+  // "tailwindCSS.experimental.configFile": {
+  //   "apps/**/styles/globals.css": "apps/**",
+  //   "apps/wds/styles/globals.css": "apps/wds/**",
+  //   "packages/ui/css/config.css": "packages/ui/**",
+  //   "packages/cms/css/config.css": "packages/cms/**"
+  // }
+}

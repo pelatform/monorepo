@@ -1,0 +1,9 @@
+.gitignore
+pnpm-lock.yaml
+README.md
+.next
+.turbo
+build
+dist
+out
+.source
